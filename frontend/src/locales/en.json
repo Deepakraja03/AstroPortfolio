@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "service": "Service",
+    "blogs": "Blogs",
+    "contactUs": "Contact Us"
+  },
+  "landing": {
+    "gotQuestions": "Got Any Questions?",
+    "consultAstrologer": "CONSULT WITH ASTROLOGER",
+    "getCashback": "GET 50% CASHBACK ON",
+    "firstSession": "YOUR FIRST SESSION.",
+    "connect": "CONNECT"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Astrologer is here to provide solutions for all your astrological needs. We offer a variety of services ranging from horoscopes, astrology consultation, numerology to tarot card reading.",
+    "pariharams": {
+      "title": "Pariharams",
+      "description": "Get personalized pariharams from astrologers to bring positive changes.",
+      "button": "READ MORE"
+    },
+    "talkChat": {
+      "title": "Talk & Chat",
+      "description": "Astrologer talk to you for solving your problems by online way.",
+      "button": "READ MORE"
+    },
+    "horoscope": {
+      "title": "Horoscope",
+      "description": "Discover your daily horoscope with accurate predictions.",
+      "button": "READ MORE"
+    },
+    "marriageMatching": {
+      "title": "Marriage Matching",
+      "description": "Find your perfect match by astrology-based marriage compatibility analysis.",
+      "button": "READ MORE"
+    },
+    "childBirth": {
+      "title": "Child Birth",
+      "description": "Explore insights about child birth by astrological guidance and analysis.",
+      "button": "READ MORE"
+    },
+    "aboutCareer": {
+      "title": "About Career",
+      "description": "Get detailed numerology predictions to make informed career choices.",
+      "button": "READ MORE"
+    },
+    "strengthWeak": {
+      "title": "Strength & Weak",
+      "description": "Explore strengths and weaknesses by tarot readings and analysis.",
+      "button": "READ MORE"
+    }
+  },
+  "booking": {
+    "title": "Also Booking For",
+    "description": "Astrologer is here to provide solutions for all your astrological needs. We offer a variety of services ranging from horoscopes, astrology consultation, numerology to tarot card reading."
+  },
+  "predictions": {
+    "title": "General Predictions",
+    "description": "Astrologer is here to provide solutions for all your astrological needs. We offer a variety of services ranging from horoscopes, astrology consultation, numerology to tarot card reading.",
+    "guruTransit": {
+      "title": "Guru Transit",
+      "description": "Ask what does Venus transit signifies for you, love life, relationship, pleasure, luxuries."
+    },
+    "shaniTransit": {
+      "title": "Shani Transit",
+      "description": "Know the impact of Shani transit, expect great changes, profits and fulfillment of desire."
+    },
+    "rahuKetuTransit": {
+      "title": "Rahu Ketu Transit",
+      "description": "Discuss Rahu Ketu transit, how it will influence you and get remedy to receive benefits."
+    }
+  },
+  "talk": {
+    "title": "Talk to Astrologer About",
+    "description": "Astrologer is here to provide solutions for all your astrological needs. We offer a variety of services ranging from horoscopes, astrology consultation, numerology to tarot card reading.",
+    "love": {
+      "title": "Love",
+      "description": "Everyone needs love and compassion. The right time and partner is all it requires."
+    },
+    "money": {
+      "title": "Money",
+      "description": "Money is the most basic requirement, beat it might not come to everyone that easy."
+    },
+    "partner": {
+      "title": "Partner",
+      "description": "Everyone needs a perfect the partner and a happy married life."
+    },
+    "health": {
+      "title": "Health",
+      "description": "Health is in true sense wealth. One cannot afford to lose of any cost."
+    },
+    "career": {
+      "title": "Career",
+      "description": "Career progress can stagnate. Learn the right paths to overcome this."
+    },
+    "legalIssues": {
+      "title": "Legal Issues",
+      "description": "Avoid draining legal issues by understanding the movements of the stars."
+    }
+  },
+  "testimonials": {
+    "title": "Some Laurels About",
+    "items": [
+      "The astrologer provided me with accurate predictions and guidance that helped me make important life decisions. Highly recommended!",
+      "I was amazed by the detailed analysis of my horoscope. The remedies suggested were practical and effective.",
+      "Professional service with deep knowledge of astrology. The consultation was insightful and transformative."
+    ]
+  },
+  "about": {
+    "title": "ABOUT",
+    "starDetermines": "✯ Your Star Determines Your Life's Journey ✯",
+    "description": "I am from a தமிழ் family & imparting astrological consultations to people for the past fifteen years or so and in this period i have studied and gone through thousands of Horoscopes. I inherit my spiritual power & knowledge of Astrology gained from my guru and pray of my Kuldevi.",
+    "vision": {
+      "title": "OUR VISION",
+      "description": "Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu egestas fusce arcu."
+    },
+    "mission": {
+      "title": "OUR MISSION",
+      "items": [
+        "Lorem ipsum dolor sit amet consectetur ellentesque nascetur sed.",
+        "Lorem ipsum dolor sit amet consectetur ellentesque nascetur sed.",
+        "Lorem ipsum dolor sit amet consectetur ellentesque nascetur sed.",
+        "Lorem ipsum dolor sit amet consectetur ellentesque nascetur sed."
+      ]
+    },
+    "journey": {
+      "title": "JOURNEY",
+      "description": "When you choose Soul Li Tude, you're choosing a trusted partner on your spiritual journey. Here's what sets us apart:"
+    },
+    "faq": {
+      "title": "Frequently asked Questions"
+    }
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "What is Astrology?",
+        "answer": "Astrology is the study of how the positions of celestial bodies influence human life and behavior."
+      },
+      {
+        "question": "What are the key principles of Astrology?",
+        "answer": "Astrology is based on zodiac signs, planets, houses, and aspects, which together form a birth chart that reflects one's personality and life path."
+      },
+      {
+        "question": "How can I book a slot?",
+        "answer": "You can easily book a session online by selecting a service and choosing your preferred date and time."
+      },
+      {
+        "question": "Where are you located?",
+        "answer": "We're located in Chennai, and offer consultations both in-person and online worldwide."
+      },
+      {
+        "question": "Why do we use it?",
+        "answer": "Astrology offers insights into personality, relationships, and life choices, helping you understand yourself better."
+      }
+    ]
+  },
+  "journey": {
+    "confidentiality": {
+      "title": "Confidentiality and Trust",
+      "description": "We understand the personal nature of astrology consultations. Rest assured that your information will be treated with the utmost confidentiality and respect."
+    },
+    "professionalism": {
+      "title": "Professionalism and Expertise",
+      "description": "Our astrologer brings a wealth of knowledge and experience to each session, ensuring accurate and valuable insights."
+    },
+    "spiritualConnection": {
+      "title": "Spiritual Connection",
+      "description": "Our astrologer combines astrology's analytical approach with a deep spiritual connection, providing guidance that resonates on a soul level."
+    },
+    "empowerment": {
+      "title": "Empowerment and Transformation",
+      "description": "Our ultimate goal is to empower you to live a fulfilling and purpose-driven life. We'll guide you to embrace your authentic self and create positive changes."
+    }
+  },
+  "stats": {
+    "trustedClients": "Trusted by clients",
+    "yearsExperience": "Years of Experience",
+    "typesRemedies": "Types of Remedies",
+    "happyCustomers": "Happy Customers",
+    "supportedPartners": "Supported Partners",
+    "satisfiedServices": "Satisfied Services"
+  },
+  "contact": {
+    "title": "Contact Address",
+    "description": "You can receive immediate and accurate advice about your life by speaking with an expert Astrologer over the phone or via chat. You can choose an astrologer based on language, expertise in different areas, charges, and years of experience.",
+    "chandigarh": {
+      "title": "CHANDIGARH OFFICE:",
+      "address": "501 2nd Floor Near Syndicate Bank, Sector 70, Sahibzada Ajit Singh Nagar Chandigarh, 160059"
+    },
+    "delhi": {
+      "title": "DELHI OFFICE:",
+      "address": "C-D Block, Shivaji Vihar, Raghubir Nagar New Delhi, Delhi, 110027"
+    }
+  },
+  "footer": {
+    "brand": "Astro Sri",
+    "contactText": "Do Call and Whatsapp on this Number",
+    "phoneNumber": "+91-6374151473",
+    "disclaimer": {
+      "title": "DISCLAIMER",
+      "text": "There are no guarantees that every person using this service will get their desired results for sure. Astrological results depend on a lot of factors and the results may vary from person to person."
+    },
+    "copyright": "All rights reserved."
+  },
+  "language": {
+    "english": "English",
+    "tamil": "Tamil"
+  }
+} 

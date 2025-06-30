@@ -1,14 +1,17 @@
 import { useState } from 'react'
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 import Moon from '../assets/moon.png'
 import Recline from '../assets/recline.png'
 import MobileMenu from './MobileMenu';
+import LanguageToggle from './LanguageToggle';
 import { Link, useNavigate  } from "react-router-dom";
 
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -39,19 +42,20 @@ const Navbar = () => {
         </div>
         <nav className="hidden items-center md:flex lg:gap-8 md:gap-4 md:mt-7">
           <Link to="/" className="text-black hover:scale-95 text-xl">
-            Home
+            {t('nav.home')}
           </Link>
           <Link to="/about" className="text-black hover:scale-95 text-xl">
-            About
+            {t('nav.about')}
           </Link>
           <button onClick={handleServiceClick} className="text-black hover:scale-95 text-xl">
-            Service
+            {t('nav.service')}
           </button>
           <Link to="/display" className="text-black hover:scale-95 text-xl">
-            Blogs
+            {t('nav.blogs')}
           </Link>
+          <LanguageToggle />
           <a href='/contact' ><button className="text-amber-500 p-2 px-4 bg-stone-800 hover:bg-stone-700 hover:scale-95 rounded text-xl">
-            Contact Us
+            {t('nav.contactUs')}
           </button></a>
         </nav>
       </div>

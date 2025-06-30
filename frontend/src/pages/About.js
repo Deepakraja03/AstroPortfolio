@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from 'react-i18next';
 import Navbar from "../components/Navbar";
 import Ganesh from "../assets/ganesha.png";
 import AboutPic from "../assets/about.png";
@@ -17,6 +18,7 @@ import "../styles/whatsapp.css";
 // import Slider2 from "../components/Slider2";
 
 const About = () => {
+  const { t } = useTranslation();
   const whatsappUrl = `https://api.whatsapp.com/send?phone=6374151473`;
 
   const handleClick = () => {
@@ -44,7 +46,7 @@ const About = () => {
         <Navbar />
         <div className=" pt-10 ">
           <div className=" flex justify-center mx-6 md:mx-14 lg:mx-32">
-            <p className="font-semibold text-3xl underline-text">ABOUT</p>
+            <p className="font-semibold text-3xl underline-text">{t('about.title')}</p>
           </div>
           <div className=" pt-12 md:gap-12 lg:gap-20 items-center mx-6 md:mx-14 lg:mx-32 md:flex ">
             <div className=" flex justify-center w-auto md:w-[100%] lg:w-[50%] ">
@@ -53,8 +55,7 @@ const About = () => {
             <div className=" md:w-[100%]">
               <div className=" flex">
                 <p className=" flex justify-center bg-orange-200 p-2 px-4 rounded text-black text-2xl md:text-3xl lg:text-6xl font-semibold">
-                  ✯ Your Star Determines <br className=" hidden lg:flex" /> Your
-                  Life's Journey ✯
+                  {t('about.starDetermines')}
                 </p>
                 <img
                   className=" lg:h-44 hidden lg:flex absolute right-0"
@@ -62,11 +63,7 @@ const About = () => {
                 ></img>
               </div>
               <p className=" pt-6 mr-0 text-sm lg:text-xl lg:mr-24">
-                I am from a தமிழ் family & imparting astrological consultations
-                to people for the past fifteen years or so and in this period i
-                have studied and gone through thousands of Horoscopes. I inherit
-                my spiritual power & knowledge of Astrology gained from my guru
-                and pray of my Kuldevi.
+                {t('about.description')}
               </p>
             </div>
           </div>
@@ -216,12 +213,10 @@ const About = () => {
             ></img>
             <div className=" pt-10">
               <p className=" flex justify-center orange-text-bold font-semibold text-3xl">
-                JOURNEY
+                {t('about.journey.title')}
               </p>
               <p className=" flex justify-center pt-6">
-                When you choose Soul Li Tude, you're choosing a trusted
-                <br className=" hidden md:flex" /> partner on your spiritual
-                journey. Here's what sets us apart:
+                {t('about.journey.description')}
               </p>
               <div className=" pt-10">
                 <JourneyFrame />
@@ -235,7 +230,7 @@ const About = () => {
 
           <div className=" mx-6 md:mx-14 lg:mx-32 pt-16">
             <p className=" flex justify-center font-semibold text-3xl">
-              Frequently asked Questions
+              {t('about.faq.title')}
             </p>
             <img
               className=" flex absolute right-0 h-16 md:h-44"

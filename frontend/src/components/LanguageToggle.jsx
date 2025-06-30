@@ -1,31 +1,25 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 
-const LanguageToggle = () => {
-  const changeLanguage = (lang) => {
-    const select = document.querySelector(".goog-te-combo");
-    if (select) {
-      select.value = lang;
-      select.dispatchEvent(new Event("change"));
-    } else {
-      alert("Google Translate not loaded yet. Please wait a second and try again.");
-    }
+const LanguageToggle = ({ isMobile = false }) => {
+  const { i18n, t } = useTranslation();
+
+  const toggleLanguage = () => {
+    const newLang = i18n.language === 'en' ? 'ta' : 'en';
+    i18n.changeLanguage(newLang);
   };
 
+  const buttonClass = isMobile 
+    ? "text-amber-500 px-3 py-1 bg-white hover:bg-gray-100 hover:scale-95 rounded-sm text-sm border border-amber-500"
+    : "text-amber-500 px-3 py-1 bg-white hover:bg-gray-100 hover:scale-95 rounded text-sm border border-amber-500";
+
   return (
-    <div className="flex justify-end gap-2 p-4">
-      <button
-        onClick={() => changeLanguage("en")}
-        className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
-      >
-        English
-      </button>
-      <button
-        onClick={() => changeLanguage("ta")}
-        className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
-      >
-        Tamil
-      </button>
-    </div>
+    <button
+      onClick={toggleLanguage}
+      className={buttonClass}
+    >
+      {i18n.language === 'en' ? t('language.tamil') : t('language.english')}
+    </button>
   );
 };
 
