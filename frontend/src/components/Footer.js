@@ -2,53 +2,32 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#FFB02E] mt-10">
-      <div>
-        <div className="md:flex justify-between md:mx-40 py-10">
-          <h1 className="text-3xl reddit-sans text-white mx-10 md:mx-0 py-5 md:py-0">
-            Astro Sri
-          </h1>
-          <div className="md:flex reddit-sans mx-10 md:mx-0 gap-8 bg-white p-4 rounded-3xl">
-            <h1 className="font-semibold text-lg">
-              Do Call and Whatsapp on this Number{" "}
-              <span className="font-bold reddit-sans text-xl">+91-98308697800</span>
-            </h1>
+    <footer className="bg-[#FFB02E] mt-10 w-full">
+      <div className="max-w-7xl mx-auto px-4 py-10 flex flex-col md:flex-row md:justify-between items-center gap-8">
+        {/* Branding and Contact */}
+        <div className="flex flex-col items-center md:items-start gap-4 w-full md:w-1/2">
+          <h1 className="text-3xl reddit-sans text-white font-bold">Astro Sri</h1>
+          <div className="bg-white rounded-3xl px-6 py-3 shadow-md flex items-center">
+            <span className="font-semibold text-base md:text-lg text-center">
+              Do Call and Whatsapp on this Number <br className="block md:hidden" />
+              <span className="font-bold reddit-sans text-xl md:text-2xl">+91-6374151473</span>
+            </span>
           </div>
         </div>
-        <div className="grid md:grid-cols-4 md:space-x-10 md:mx-40 mx-10 space-y-3 md:space-y-0 py-10 grid-cols-1">
-          <div>
-            <h1 className="font-medium quicksand-font">
-              My expertise and knowledge in this field has helped more than
-              10,000 of my clients for the last fifteen years. I have been
-              awarded with several awards like Jyotish Ratna, Jyotish Bhushan &
-              Others.
-            </h1>
-          </div>
-          <div>
-            <h1 className="font-bold reddit-sans text-2xl mb-5">CHANDIGARH OFFICE:</h1>
-            <h1 className="font-medium quicksand-font">
-              501 2nd Floor Near Syndicate Bank,Sector 70, Sahibzada Ajit Singh
-              NagarChandigarh, 160059
-            </h1>
-          </div>
-          <div>
-            <h1 className="font-bold reddit-sans text-2xl mb-5">DELHI OFFICE</h1>
-            <h1 className="font-medium quicksand-font">
-              C-D Block, Shivaji Vihar , Raghubir NagarNew Delhi, Delhi, 110027
-            </h1>
-          </div>
-          <div>
-            <h1 className="font-bold reddit-sans text-2xl mb-5">DISCLAIMER</h1>
-            <h1 className="font-medium quicksand-font">
-              {" "}
-              There are no guarantees that every person using this service will
-              get their desired results for sure. Astrological results depend on
-              a lot of factors and the results may vary from person to person.
-            </h1>
+        {/* Disclaimer */}
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+          <div className="bg-white/80 border-l-4 border-[#FFB02E] rounded-xl p-6 max-w-md shadow-sm">
+            <h2 className="font-bold reddit-sans text-xl mb-2 text-[#FFB02E]">DISCLAIMER</h2>
+            <p className="font-medium quicksand-font text-gray-700 text-sm md:text-base">
+              There are no guarantees that every person using this service will get their desired results for sure. Astrological results depend on a lot of factors and the results may vary from person to person.
+            </p>
           </div>
         </div>
       </div>
-    </div>
+      <div className="text-center text-xs text-white py-4 bg-[#FFB02E]/90 border-t border-white/20">
+        &copy; {new Date().getFullYear()} Astro Sri. All rights reserved.
+      </div>
+    </footer>
   );
 };
 

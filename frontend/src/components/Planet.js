@@ -2,9 +2,7 @@ import React from "react";
 import PlanetCard from "./PlanetCard";
 import planet1 from "../assets/planet1.png";
 import planet2 from "../assets/planet2.png";
-import planet4 from "../assets/planet4.png";
 import planet5 from "../assets/planet5.png";
-import neptune from "../assets/neptune.png";
 
 const Planet = () => {
   return (
@@ -26,30 +24,10 @@ from horoscopes, astrology consultation, numerology to tarot card reading. </p>
 
       <PlanetCard
         imgSrc={planet2}
-        title="Jupiter Transit"
-        description="Know the impact of Guru transit, expect
+        title="Shani Transit"
+        description="Know the impact of Shani transit, expect
         great changes, profits and fulfillment of
         desire."
-        imgWidth="100px"
-        imgHeight="130px"
-      />
-
-      <PlanetCard
-        imgSrc={neptune}
-        title="Neptune Transit"
-        description="Talk about Neptune transit, retrograde,
-        reveal affects, new opportunities, income
-        and gains."
-        imgWidth="80px"
-        imgHeight="120px"
-      />
-
-      <PlanetCard
-        imgSrc={planet4}
-        title="Mercury Transit"
-        description="Discover transit, retrograde of planet
-        Mercury how it strengthen trade,
-        commerce and speech."
         imgWidth="100px"
         imgHeight="130px"
       />

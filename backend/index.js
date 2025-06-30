@@ -5,7 +5,7 @@ const cors = require('cors');
 const bcrypt = require('bcrypt');
 require('dotenv').config();
 
-const port = 5000;
+const port = 3001;
 const app = express();
 app.use(bodyParser.json());
 

@@ -11,6 +11,7 @@ import BlogDisplayPage from './pages/BlogDisplayPage';
 import BlogDetailPage from './components/BlogDetailPage';
 import DeleteBlog from './pages/admin/DeleteBlog';
 import ViewData from './pages/admin/ViewData';
+import LanguageToggle from './components/LanguageToggle';
 
 
 
@@ -19,6 +20,8 @@ function App() {
   const isLoggedIn = localStorage.getItem('authenticated');
   return (
     <div>
+       {/* <div id="google_translate_element" className="hidden"></div> */}
+       <LanguageToggle />
          <Router>
             <Routes>
               <Route path="/" element={<Home />} />
