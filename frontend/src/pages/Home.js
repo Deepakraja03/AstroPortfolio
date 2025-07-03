@@ -1,7 +1,7 @@
 
 import LandingPage from '../components/LandingPage'
 import Navbar from '../components/Navbar'
-import NumberRow from '../components/NumberRow'
+// import NumberRow from '../components/NumberRow'
 import Services from '../components/Services'
 import Planet from '../components/Planet'
 import Talk from '../components/Talk'
@@ -41,7 +41,7 @@ const Home = () => {
            <img onClick={handleClick} className='whatsapp-button bg-[#3DDA3A] md:hover:pl-6 md:hover:pr-3 hover:cursor-pointer md:py-2 md:pl-3 rounded-l-full' src={whatsApp} alt="whatsapp" />
         </div>
         <LandingPage />
-        <NumberRow />
+        {/* <NumberRow /> */}
         <div id='service'>
         <Services />
         </div>
