@@ -15,7 +15,7 @@
   },
   "services": {
     "title": "Our Services",
-    "description": "Astrologer is here to provide solutions for all your astrological needs. We offer a variety of services ranging from horoscopes, astrology consultation, numerology to tarot card reading.",
+    "description": "Astrologer is here to provide solutions for all your astrological needs. We offer a variety of services ranging from horoscopes, astrology consultation, numerology to marriage matching reading.",
     "pariharams": {
       "title": "Pariharams",
       "description": "Get personalized pariharams from astrologers to bring positive changes.",
@@ -48,17 +48,17 @@
     },
     "strengthWeak": {
       "title": "Strength & Weak",
-      "description": "Explore strengths and weaknesses by tarot readings and analysis.",
+      "description": "Explore strengths and weaknesses by marriage matching readings and analysis.",
       "button": "READ MORE"
     }
   },
   "booking": {
     "title": "Also Booking For",
-    "description": "Astrologer is here to provide solutions for all your astrological needs. We offer a variety of services ranging from horoscopes, astrology consultation, numerology to tarot card reading."
+    "description": "Astrologer is here to provide solutions for all your astrological needs. We offer a variety of services ranging from horoscopes, astrology consultation, numerology to marriage matching reading."
   },
   "predictions": {
     "title": "General Predictions",
-    "description": "Astrologer is here to provide solutions for all your astrological needs. We offer a variety of services ranging from horoscopes, astrology consultation, numerology to tarot card reading.",
+    "description": "Astrologer is here to provide solutions for all your astrological needs. We offer a variety of services ranging from horoscopes, astrology consultation, numerology to marriage matching reading.",
     "guruTransit": {
       "title": "Guru Transit",
       "description": "Ask what does Venus transit signifies for you, love life, relationship, pleasure, luxuries."
@@ -74,7 +74,7 @@
   },
   "talk": {
     "title": "Talk to Astrologer About",
-    "description": "Astrologer is here to provide solutions for all your astrological needs. We offer a variety of services ranging from horoscopes, astrology consultation, numerology to tarot card reading.",
+    "description": "Astrologer is here to provide solutions for all your astrological needs. We offer a variety of services ranging from horoscopes, astrology consultation, numerology to marriage matching reading.",
     "love": {
       "title": "Love",
       "description": "Everyone needs love and compassion. The right time and partner is all it requires."
@@ -198,7 +198,7 @@
   "footer": {
     "brand": "Astro Sri",
     "contactText": "Do Call and Whatsapp on this Number",
-    "phoneNumber": "+91-6374151473",
+    "phoneNumber": "+91-7550095900",
     "disclaimer": {
       "title": "DISCLAIMER",
       "text": "There are no guarantees that every person using this service will get their desired results for sure. Astrological results depend on a lot of factors and the results may vary from person to person."
@@ -209,4 +209,4 @@
     "english": "English",
     "tamil": "Tamil"
   }
-} 
+}

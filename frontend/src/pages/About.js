@@ -87,7 +87,7 @@ const About = () => {
                     />
                   </svg>
                   <p className=" text-sm lg:text-xl font-medium">
-                    +91 9876543210
+                    +91-7550095900
                   </p>
                 </a>
               </div>
