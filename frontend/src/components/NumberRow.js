@@ -25,12 +25,7 @@ const NumberRow = () => {
           <h1 className='text-white text-base md:text-xl lg:text-md xl:text-2xl'>{t('stats.trustedClients')}</h1>
         </div>
 
-        <div className='bg-orange-500 text-center px-2 py-2 sm:px-[3%] md:px-[3%] md:py-[3%] lg:px-[4%] lg:py-4 xl:px-[5%] xl:py-4'>
-          <h1 className='text-white md:text-xl lg:text-md xl:text-2xl font-bold'>
-            {inView && <CountUp start={0} end={20} duration={2.5} />}+
-          </h1>
-          <h1 className='text-white md:text-xl lg:text-md 2xl:text-2xl'>{t('stats.yearsExperience')}</h1>
-        </div>
+
 
         <div className='bg-amber-500 text-center px-2 py-2 sm:px-[3%] md:px-[3%] md:py-[3%] lg:px-[4%] lg:py-4 xl:px-[5%] xl:py-4'>
           <h1 className='text-white md:text-xl lg:text-md xl:text-2xl font-bold'>
