@@ -2,6 +2,18 @@
 
 AstroPortfolio is a full-stack personal portfolio and client-engagement platform built with a React frontend and an Express/MongoDB backend. It combines a public-facing portfolio experience with contact workflows, blog publishing, admin management, and slot-based booking.
 
+![AstroPortfolio Home](./screenshots/home.png)
+
+**Live demo:** https://www.astro-sri.com
+
+## Screenshots
+
+### Landing page
+![Landing Page](./screenshots/home.png)
+
+### Blog listing
+![Blog Listing](./screenshots/blogs.png)
+
 ## What this project does
 
 - Presents a portfolio-style landing experience with about, services, testimonials, and contact pages
